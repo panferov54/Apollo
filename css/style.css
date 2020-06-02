@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box; }
+
+.container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(6, auto);
+  width: 80%;
+  background-color: white;
+  margin: 0 auto; }
+
+.header {
+  background: url("../image/header.png") no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  height: 750px; }
+  .header > .header_tittle {
+    padding-top: 100px;
+    padding-left: 150px;
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    font-weight: 100; }
+  .header .header_text {
+    width: 45%;
+    padding-top: 10px;
+    padding-left: 120px;
+    font-family: Roboto, sans-serif; }
+  .header .header_menu {
+    padding-top: 1%;
+    padding-left: 90%;
+    display: flex;
+    justify-content: center;
+    align-content: center; }
+    .header .header_menu :hover {
+      cursor: pointer; }
+    .header .header_menu > .text_header_menu {
+      padding-right: 10px; }
+
+.about {
+  background: url("../image/about.png") no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  height: 750px; }
+  .about > .about_tittle {
+    padding-top: 135px;
+    padding-left: 610px;
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    font-weight: 100; }
+  .about .about_text {
+    padding-top: 10px;
+    padding-left: 500px;
+    padding-right: 10px;
+    font-family: Roboto, sans-serif;
+    font-weight: 100; }
+  .about .about_cocial {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 30%;
+    padding-left: 44%; }
+    .about .about_cocial :hover {
+      cursor: pointer; }
+
+.case_first {
+  background: url("../image/case_one.png") no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  height: 750px; }
+  .case_first .case_first_buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 25% 3%; }
+    .case_first .case_first_buttons .case_first_left_button :hover {
+      cursor: pointer; }
+    .case_first .case_first_buttons .case_first_right_button :hover {
+      cursor: pointer; }
+
+.case_second {
+  background: url("../image/case_second.png") no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  height: 750px; }
+  .case_second .case_second__text {
+    float: left; }
+    .case_second .case_second__text > .case_second_tittle {
+      padding-top: 150px;
+      padding-left: 140px;
+      font-family: Roboto, sans-serif;
+      font-size: 30px;
+      font-weight: 100; }
+    .case_second .case_second__text .case_second_text {
+      padding-top: 10px;
+      padding-left: 140px;
+      padding-right: 10px;
+      font-family: Roboto, sans-serif;
+      font-weight: 100;
+      width: 500px; }
+  .case_second .case_second_photo {
+    padding-left: 300px;
+    padding-top: 10px; }
+    .case_second .case_second_photo img {
+      float: right;
+      padding-top: 15%;
+      padding-right: 5%;
+      width: 70%; }
+
+.case_third {
+  background: url("../image/case3.png") no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  height: 750px; }
+  .case_third .case_third_buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 25% 3%; }
+    .case_third .case_third_buttons .case_third_left_button :hover {
+      cursor: pointer; }
+    .case_third .case_third_buttons .case_third_right_button :hover {
+      cursor: pointer; }
+
+.footer {
+  background: url("../image/footer.png") no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  height: 750px; }
+  .footer > .footer_tittle {
+    padding-top: 7%;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    font-weight: 100; }
+  .footer .footer_text {
+    padding-top: 10px;
+    padding-left: 18%;
+    padding-right: 20%;
+    font-family: Roboto, sans-serif;
+    font-weight: 100; }
+  .footer .footer__contect-form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50px 120px 50px;
+    width: 500px;
+    margin: 0 auto; }
+    .footer .footer__contect-form > .footer__contact-form_email {
+      grid-column: 1/2; }
+      .footer .footer__contect-form > .footer__contact-form_email > input {
+        border: 2px solid black;
+        width: 248px;
+        height: 40px;
+        padding-left: 10px; }
+    .footer .footer__contect-form .footer__contact-form_subcject {
+      grid-column: 2/3;
+      padding-left: 2px; }
+      .footer .footer__contect-form .footer__contact-form_subcject > input {
+        border: 2px solid black;
+        width: 248px;
+        height: 40px;
+        padding-left: 10px; }
+    .footer .footer__contect-form .footer__contact-form_message {
+      grid-column: 1/3;
+      grid-row: 2/3; }
+      .footer .footer__contect-form .footer__contact-form_message > input {
+        width: 500px;
+        height: 100px;
+        border: 2px solid black;
+        padding-left: 10px;
+        text-align: left; }
+    .footer .footer__contect-form .footer__contact-form-button {
+      grid-column: 1/3;
+      grid-row: 3/4;
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding-top: 15px; }
+
+.footer__contact-form-button:hover {
+  cursor: pointer; }
